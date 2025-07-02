@@ -193,7 +193,7 @@ try:
     # --- News Sentiment Analysis ---
     st.subheader("🗞️ News Sentiment Analysis")
     try:
-        api_key = "f3bc50b5708744aca5cd6c4e8e7ae382"  # Replace with your real key
+        api_key = "XXXXX"  # Replace with your real key
         url = f"https://newsapi.org/v2/everything?q={ticker}&sortBy=publishedAt&apiKey={api_key}&language=en&pageSize=5"
         response = requests.get(url)
         news_data = response.json()

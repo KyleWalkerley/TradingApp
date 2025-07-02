@@ -2,7 +2,7 @@
 from newsapi import NewsApiClient
 from textblob import TextBlob
 
-NEWS_API_KEY = "f3bc50b5708744aca5cd6c4e8e7ae382"
+NEWS_API_KEY = "XXXXX"
 
 def get_news_sentiment(ticker):
     newsapi = NewsApiClient(api_key=NEWS_API_KEY)
