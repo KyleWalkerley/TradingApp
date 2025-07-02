@@ -1,0 +1,10 @@
+streamlit
+yfinance
+pandas
+matplotlib
+scikit-learn
+textblob
+requests
+numpy
+beautifulsoup4
+
